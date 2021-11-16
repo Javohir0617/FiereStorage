@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FiereStorage</string>
+    <string name="client_id">1025916083902–3t3e97j81136je6lqkvao4ta1mrpes2n.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="autorizatsiyadan_o_tish_uchun_telefon_raqamingizi_kiriting">Autorizatsiyadan o\'tish uchun telefon raqamingizi kiriting</string>
+    <string name="kirish">Kirish</string>
+    <string name="_00_45">00:45</string>
+    <string name="email_orqali_kirish">Email orqali kirish</string>
+    <string name="_998">+998(- -)  - - -  - -  - -</string>
+    <string name="f998">+998( - - ) - - - - - - -</string>
+    <string name="xush_kelibsiz">Xush Kelibsiz</string>
+    <string name="telefon_raqamingiz">Telefon raqamingiz</string>
+    <string name="google_orqali_kirish_uchun_quidagi_tugmani_bosing">Google orqali kirish uchun quidagi tugmani bosing👇👇</string>
+</resources>

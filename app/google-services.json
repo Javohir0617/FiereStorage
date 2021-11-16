@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1025916083902",
+    "project_id": "authg21ga",
+    "storage_bucket": "authg21ga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025916083902:android:31250ecaf57fe5facb88ef",
+        "android_client_info": {
+          "package_name": "com.example.fierestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025916083902-3t3e97j81136je6lqkvao4ta1mrpes2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2hCogf6K3qQPv58eWvIRlczM3hB_xDW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025916083902-3t3e97j81136je6lqkvao4ta1mrpes2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

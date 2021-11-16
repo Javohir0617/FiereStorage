@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacg"
+    android:gravity="center"
+    tools:context=".models.SmsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/text_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMS kodni kiriting"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="8dp"
+                android:textColor="@color/black"
+                android:text="Bir martalik SMS kod"
+                android:textSize="20sp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#870C0C"
+                android:id="@+id/num_ed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="+998998765432"
+                android:paddingStart="8dp"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:paddingStart="10dp"
+            android:text="raqamiga yuborildi"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:text="SMS kod"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/watch_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/_00_45"
+                android:textStyle="bold"
+                android:textColor="#830731"
+                android:paddingStart="10dp"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:elevation="10dp"
+            android:fadingEdgeLength="15dp"
+            android:minWidth="10dp"
+            android:paddingStart="30dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            android:layout_gravity="center"
+            app:cardMaxElevation="10dp">
+
+            <EditText
+                android:id="@+id/number22_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:hint="******"
+                android:paddingStart="20dp" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_margin="6dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/refresh"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="16dp"
+                android:textColor="#FF9800"
+                android:textStyle="italic"
+                android:id="@+id/recode_id"
+                android:text="Kodni qayta olish"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

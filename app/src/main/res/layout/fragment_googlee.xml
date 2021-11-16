@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bacg"
+    android:orientation="vertical"
+    tools:context=".models.GoogleeFragment">
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#EA8D05"
+        android:id="@+id/name_tv"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Google orqali kirish uchun quidagi tugmani bosing👇👇"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleBtn_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textColor="#FF9800"
+        android:id="@+id/button2"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Log Aut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

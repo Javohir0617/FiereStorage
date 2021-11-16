@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/googleeFragment"
+        android:name="com.example.fierestorage.models.GoogleeFragment"
+        android:label="fragment_googlee"
+        tools:layout="@layout/fragment_googlee" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/smsFragment"
+        android:name="com.example.fierestorage.models.SmsFragment"
+        android:label="fragment_sms"
+        tools:layout="@layout/fragment_sms" >
+
+        <action
+            android:id="@+id/action_smsFragment_to_kirishFragment2"
+            app:destination="@id/kirishFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kirishFragment"
+        android:name="com.example.fierestorage.models.KirishFragment"
+        android:label="fragment_kirish"
+        tools:layout="@layout/fragment_kirish" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.fierestorage.models.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_smsFragment"
+            app:destination="@id/smsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_googleeFragment"
+            app:destination="@id/googleeFragment" />
+    </fragment>
+</navigation>
